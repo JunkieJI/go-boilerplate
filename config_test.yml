@@ -1,0 +1,11 @@
+store:
+  db:
+    driver: mysql
+    username: root
+    password:
+    host: localhost
+    port: 3306
+    name: go_boilerplate
+    parseTime: true
+    maxOpenConnections: 100
+    maxIdleConnections: 10
